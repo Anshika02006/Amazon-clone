@@ -15,3 +15,6 @@ A front-end clone of Amazon's homepage built using HTML and CSS.
 ## How to Run
 1. Clone the repository
 2. Open `amazon.html` in your browser
+   
+🌐 Live Demo
+https://anshika02006.github.io/Amazon-clone/amazon/amazon%20project/amazon.html
