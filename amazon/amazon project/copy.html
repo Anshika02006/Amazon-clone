@@ -1,0 +1,32 @@
+<html>
+<body>
+<input type="number" id="day Number" placeholder=" Enter a number(1-7)">
+<button onclick="getweekday()">Get Weekday</button>
+<p id="result"></p>
+<script>
+    function getweekday()
+    {
+        let day =parseInt(document.getElementById("daynumber").value);
+        let resunt=document.getElementById("result");
+         switch(day){
+            ase1: result.innerText="sunday"; 
+                                     break;
+            case2: result.innerText="monday";
+                                     break;
+            case3: result.innerText="tuesday"; 
+                                     break;
+            case4: result.innerText="wednesday";
+                                    break;
+            case5: result.innerText="thursday";
+                                     break;
+            case6: result.innerText="friday";
+                                     break; 
+            case7: result.innerText="saturday";
+                                     break;
+            Default: result.innerText="please enter a valid number(1-7)";
+         }
+    }
+    </script>
+    </body>
+    </html>
+    
